@@ -16,11 +16,15 @@
             height: 300px;
             width: 100%;
         }
+        
         .card .card-image .card-title {
-            color:black;
-            position:absolute;
-            
-            
+            color: black;
+            position: absolute;
+        }
+        
+        body::-webkit-scrollbar {
+            width: 0;
+            /*Remove scrollbar on chrome for better view */
         }
     </style>
 </head>
@@ -30,157 +34,147 @@
     <div data-role="page" id="home">
         <div data-role="header">
             <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper light-blue darken-4">
-                    <a href="#!" class="brand-logo center">Bojku</a>
-                    <!-- Not using side nav for now <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a> !-->
-                    <ul class="right ">
-                        <li><a href="#modal1" class="waves-effect waves-light modal-trigger">Kontakti</a></li>
+                <nav>
+                    <div class="nav-wrapper light-blue darken-4">
+                        <a href="#!" class="brand-logo center">Bojku</a>
+                        <!-- Not using side nav for now <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a> !-->
+                        <ul class="right ">
+                            <li><a href="#modal1" class="waves-effect waves-light modal-trigger">Kontakti</a></li>
 
-                    </ul>
-                    <!-- Not using side nav for now 
+                        </ul>
+                        <!-- Not using side nav for now 
                     <ul class="side-nav" id="mobile-demo">
                         <li><a href="sass.html">Sass</a></li>
                         <li><a href="badges.html">Components</a></li>
                         <li><a href="collapsible.html">Javascript</a></li>
                         <li><a href="mobile.html">Mobile</a></li>
                     </ul> !-->
-                </div>
-            </nav>
-        </div>
-        <!-- /Navbar -->
-
-        <!-- Page Content goes here -->
-        <div class="parallax-container">
-            <div class="parallax"><img src="http://www.intrawallpaper.com/static/images/background-618226_640.png"></div>
-        </div>
-
-        <div class="row">
-            <div class="col m3 grey center">
-
-                <div class="card small">
-                    <div class="card-image">
-                        <img src="http://bojkuhidraulik.com/foto/Utovarivac/z.png">
-                        <span class="card-title ">Luge ngarkuese</span>
                     </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    
-                </div>
-
-
+                </nav>
             </div>
-            <div class="col m3 center">
-                <div class="card small">
-                    <div class="card-image">
-                        <img src="http://bojkuhidraulik.com/foto/Utovarivac/z.png">
-                        <span class="card-title ">Luge ngarkuese</span>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    
-                </div>
+            <!-- /Navbar -->
+
+            <!-- Page Content goes here -->
+            <div class="parallax-container">
+                <div class="parallax"><img src="http://www.intrawallpaper.com/static/images/background-618226_640.png"></div>
             </div>
-            <div class="col m3 grey center">
-                <div class="card small">
-                    <div class="card-image">
-                        <img src="http://bojkuhidraulik.com/foto/Utovarivac/z.png">
-                        <span class="card-title ">Luge ngarkuese</span>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col m3 center">
-                <div class="card small">
-                    <div class="card-image">
-                        <img src="http://bojkuhidraulik.com/foto/Utovarivac/z.png">
-                        <span class="card-title ">Luge ngarkuese</span>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                    
-                </div>
-            </div>
-            <!-- End of row 1 !-->
-        </div>
-        <div class="row">
-            <div class="col m3 grey center">1</div>
-            <div class="col m3 center">2</div>
-            <div class="col m3 grey center">1</div>
-            <div class="col m3 center">2</div>
-        </div>
-        <div class="row">
-            <div class="col m3 grey center">1</div>
-            <div class="col m3 center">2</div>
-            <div class="col m3 grey center">1</div>
-            <div class="col m3 center">2</div>
-        </div>
 
-
-
-
-
-
-        <!-- Modal Structure -->
-        <div id="modal1" class="modal bottom-sheet">
-            <div class="modal-content">
-                <h4>Modal Header</h4>
-                <p>A bunch of text</p>
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-            </div>
-        </div>
-
-<footer class="page-footer light-blue darken-4">
-          <div class="container">
             <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
-              </div>
+                <div class="col m3 grey center">
+
+                    <div class="card small">
+                        <div class="card-image">
+                            <img src="http://bojkuhidraulik.com/foto/Utovarivac/z.png">
+                            <span class="card-title ">Luge ngarkuese</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col m3 center">
+                    <div class="card small">
+                        <div class="card-image">
+                            <img src="http://bojkuhidraulik.com/foto/Utovarivac/z.png">
+                            <span class="card-title ">Luge ngarkuese</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col m3 grey center">
+                    <div class="card small">
+                        <div class="card-image">
+                            <img src="http://bojkuhidraulik.com/foto/Utovarivac/z.png">
+                            <span class="card-title ">Luge ngarkuese</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col m3 center">
+                    <div class="card small">
+                        <div class="card-image">
+                            <img src="http://bojkuhidraulik.com/foto/Utovarivac/z.png">
+                            <span class="card-title ">Luge ngarkuese</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- End of row 1 !-->
             </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-             2016 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <div class="row">
+                <div class="col m3 grey center">1</div>
+                <div class="col m3 center">2</div>
+                <div class="col m3 grey center">1</div>
+                <div class="col m3 center">2</div>
             </div>
-          </div>
-        </footer>
+            <div class="row">
+                <div class="col m3 grey center">1</div>
+                <div class="col m3 center">2</div>
+                <div class="col m3 grey center">1</div>
+                <div class="col m3 center">2</div>
+            </div>
 
 
 
 
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-
-        <script>
-            $(document).ready(function() {
 
 
-                $(".button-collapse").sideNav();
-                $('.modal-trigger').leanModal();
-                $('.parallax').parallax();
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal bottom-sheet">
+                <div class="modal-content">
+                    <h4>Modal Header</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+            </div>
 
-            });
-        </script>
+            <footer class="page-footer light-blue darken-4">
+
+                <div class="footer-copyright">
+                    <div class="container">
+                        &copy;
+                        <script>
+                            var d = new Date();
+                            var n = d.getFullYear();
+                            document.write(n);
+                        </script> Bojku
+                        <a class="grey-text text-lighten-4 right" href="#"> <i class="material-icons">navigation</i></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+
+
+
+
+            <!--Import jQuery before materialize.js-->
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+            <script>
+                $(document).ready(function() {
+
+
+                    $(".button-collapse").sideNav();
+                    $('.modal-trigger').leanModal();
+                    $('.parallax').parallax();
+
+                });
+            </script>
 </body>
 
 </html>
