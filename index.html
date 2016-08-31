@@ -79,7 +79,7 @@
 
             <!-- Page Content goes here -->
 
-            <div class="row">
+            
                 <div class="col m12 center">
 
                     <div class="slider">
@@ -123,7 +123,7 @@
                 </div>
 
 
-            </div>
+           
             <div class="parallax-container">
                 <div class="parallax"><img src="http://www.hdnicewallpapers.com/Walls/Big/Countries%20and%20City/HD_Nice_Night_View_of_City_and_Road_Photos.jpg"></div>
             </div>
@@ -192,7 +192,9 @@
         <script>
             $(document).ready(function() {
                 $('.slider').slider({
-                    full_width: true
+                    full_width: true,
+                    indicators :false,
+                    interval: 2100
                 });
                 $(".button-collapse").sideNav();
                 $('.modal-trigger').leanModal();
